@@ -1,14 +1,18 @@
 {
-  "name": "u1_act1.3_lucero-gutierrez",
+  "name": "lucero-gutierrez",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
   "devDependencies": {
     "@eslint/js": "^9.37.0",
     "eslint": "^9.37.0",
